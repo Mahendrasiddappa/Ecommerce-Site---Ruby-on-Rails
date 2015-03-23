@@ -12,7 +12,7 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: project_development
+  database: ecommerce_development
   pool: 5
   username: 
   password:
@@ -20,7 +20,7 @@ development:
 test: &TEST
   adapter: postgresql
   encoding: utf8
-  database: project_test
+  database: ecommerce_test
   pool: 5
   username: 
   password:
@@ -28,7 +28,7 @@ test: &TEST
 production:
   adapter: postgresql
   encoding: utf8
-  database: project_production
+  database: ecommerce_production
   pool: 5
   username: 
   password:
