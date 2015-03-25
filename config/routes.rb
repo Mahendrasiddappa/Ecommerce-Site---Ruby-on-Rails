@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'pages/contact'
 
- # get 'pages/create'
+  get 'pages/about'
 
  # get 'pages_controller.rb'
 #get 'pages/app/controller/pages_controller.rb'

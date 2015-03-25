@@ -7,9 +7,6 @@
 # Ignore bundler config.
 /.bundle
 
-#ignore Rspec anf spork 
-/autotest/*
-
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal

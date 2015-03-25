@@ -30,5 +30,4 @@ module Ecommerce
 		end
 	end
 
-  end
 end

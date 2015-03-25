@@ -15,7 +15,7 @@ Spork.prefork do
 	require 'rspec/rails'
 
 	Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
-#	Rspec.configure do |config|
+	Rspec.configure do |config|
 
 #	config.mock_with :rspec
 #	config.fixture_path = "#{::Rails.root}/spec/fixtures"
@@ -23,7 +23,7 @@ Spork.prefork do
 #	config.use_transactional_fixtures = true
 #	ActiveSupport::Dependencies.clear
 	
-#	end
+	end
 end
 
 Spork.each_run do
